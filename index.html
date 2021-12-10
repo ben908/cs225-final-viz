@@ -36,7 +36,7 @@
       .force("center", d3.forceCenter(width / 2, height / 2));
 
     onWindowResize()
-    d3.json("./data1-cleaned-small.json", function (error, graph) {
+    d3.json("https://raw.githubusercontent.com/ben908/cs225-final-viz/main/public/data1-cleaned-small.json", function (error, graph) {
       if (error) throw error;
 
       var link = svg.append("g")
