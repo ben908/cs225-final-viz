@@ -1,0 +1,15 @@
+{
+  "name": "cs225_final_viz",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.7.0"
+  },
+  "dependencies": {
+    "d3": "^7.2.1"
+  }
+}
